@@ -1,0 +1,8 @@
+name: healthkungya-ai-server
+services:
+  yolo3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: yolo3:latest
+    container_name: healthkungya-ai-server
