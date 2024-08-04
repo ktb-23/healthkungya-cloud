@@ -1,0 +1,8 @@
+name: healthkungya-ai-server
+services:
+  ubuntu-python3.12-aihubshell:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ubuntu-python3.12-aihubshell:latest
+    container_name: healthkungya-ai-server
