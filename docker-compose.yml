@@ -1,0 +1,10 @@
+name: healthkungya-ai-server
+services:
+  healthkungya-ai-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    image: healthkungya-ai-server
+    container_name: healthkungya-ai-server
